@@ -16,7 +16,7 @@ parser.add_argument("--start", type=int, default=0, help="The num for collecting
 parser.add_argument("--recommend_num", type=int, default=20, help="The recommended music list")
 parser.add_argument("--sst_class", type=str, default="country", help="the sst class")
 parser.add_argument("--sst_json_path", type=str, default=r'C:\Users\1\Downloads\Compressed\FaiRLLM-main\FaiRLLM-main\sst_json.json', help="the path for sst json file")
-parser.add_argument("--api_key", type=str, default="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")
+parser.add_argument("--api_key", type=str, default="your api key")
 args = parser.parse_args()
 
 name_list = pd.read_csv(args.director_list)["Director"]
